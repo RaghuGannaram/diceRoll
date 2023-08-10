@@ -1,0 +1,31 @@
+.app {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  user-select: none;
+}
+
+.app .heading {
+  padding-bottom: 50px;
+}
+
+.app .heading h2 {
+  display: inline-block;
+}
+
+.app .timer {
+  text-align: end;
+  padding: 15px;
+}
+
+.app .mainContainer {
+  background-color: rgb(76, 194, 164);
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.app .Table {
+  padding: 50px 0px;
+}

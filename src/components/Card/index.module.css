@@ -1,0 +1,54 @@
+.cardContainer {
+  width: 15%;
+  max-width: 120px;
+  min-width: 100px;
+  margin: 10px 5px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 10px;
+  background-color: rgb(76, 194, 164);
+  border: 1px solid rgb(61, 175, 147);
+  box-shadow: 5px 5px 5px 0px rgb(61, 175, 147);
+}
+
+.cardContainer.active:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+.cardContainer.active:active {
+  transform: scale(1);
+}
+
+.cardContainer.inactive {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+}
+
+.cardContainer.inactive.win {
+  background-color: rgb(54, 220, 179);
+  border: 1px solid rgb(61, 175, 147);
+  box-shadow: 5px 5px 5px 0px rgb(61, 175, 147);
+}
+
+.cardContainer.inactive.lose {
+  /* background-color: red; */
+  background-color: rgb(83, 122, 112);
+  border: 1px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px 0px rgb(0, 0, 0);
+}
+
+.cardOptionValue {
+  padding: 10px;
+  /* background-color: rgb(0, 0, 0); */
+  /* color: white; */
+}
+
+.cardOptionValue h3 {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+}
