@@ -29,3 +29,14 @@
 .app .Table {
   padding: 50px 0px;
 }
+
+@media (max-width: 768px) {
+  .app .heading {
+    padding-bottom: 20px;
+  }
+
+  .app .mainContainer {
+    flex-direction: column;
+    height: 200px;
+  }
+}
