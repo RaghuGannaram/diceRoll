@@ -77,8 +77,3 @@ The **Roll Rush** is an exciting interactive game where players bet points on th
 - Add animations for dice rolling and card selection.
 
 ---
-
-## 📷 Screenshots
-<!-- _Add screenshots of the gameplay interface._ -->
-
----
