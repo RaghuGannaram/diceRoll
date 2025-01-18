@@ -1,5 +1,5 @@
 {
-    "name": "dazzling-dice",
+    "name": "roll-rush",
     "version": "1.0.0",
     "description": "A simple dice rolling app",
     "keywords": [
@@ -8,9 +8,9 @@
         "dice",
         "roll"
     ],
-    "homepage": "https://github.com/RaghuGannaram/dazzlingDice",
+    "homepage": "https://github.com/RaghuGannaram/roll-rush",
     "bugs": {
-        "url": "https://github.com/RaghuGannaram/dazzlingDice/issues",
+        "url": "https://github.com/RaghuGannaram/roll-rush/issues",
         "email": "mail@raghugannaram.com"
     },
     "license": "MIT",
@@ -22,7 +22,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/RaghuGannaram/dazzlingDice"
+        "url": "https://github.com/RaghuGannaram/roll-rush"
     },
     "type": "module",
     "scripts": {

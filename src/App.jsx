@@ -62,7 +62,7 @@ function App() {
 	return (
 		<div className={styles.app}>
 			<div className={styles.heading}>
-				<h2>Dice Roll |</h2> A game of fun and luck
+				<h2>Roll Rush |</h2> A game of fun and luck
 			</div>
 			<div className={styles.timer}>Timer: {betTimer >= 0 ? betTimer : 0}</div>
 			<div className={styles.mainContainer}>
